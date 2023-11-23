@@ -1,7 +1,7 @@
-_site
-.sass-cache
+#_site
+#.sass-cache
 .jekyll-metadata
-.ruby-version
-Gemfile.lock
+#.ruby-version
+#Gemfile.lock
 .history
 .DS_store
