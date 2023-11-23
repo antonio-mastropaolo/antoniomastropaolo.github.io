@@ -6,6 +6,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jemoji'
     gem 'unicode'
+    gem 'webrick'
 end
 
-gem "webrick", "~> 1.8"
+
