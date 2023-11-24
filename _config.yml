@@ -10,7 +10,8 @@ description: Personal website of Antonio Mastropaolo.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-#url: platanios.org
+url: https://antoniomastropaolo.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
 # Social Integration
