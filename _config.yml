@@ -10,7 +10,7 @@ description: Personal website of Antonio Mastropaolo.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # last_updated: true
 
-url: antoniomastropaolo.github.io # the base hostname & protocol for your site
+url: https://antonio-mastropaolo.github.io # the base hostname & protocol for your site
 #baseurl: /personal-website/ # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
