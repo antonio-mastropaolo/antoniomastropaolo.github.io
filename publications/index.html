@@ -29,11 +29,11 @@
                      About          
                      </a>
                   </li>
-                  <li class="nav-item ">
+                  <!-- <li class="nav-item ">
                      <a class="nav-link" href="/cv/">
                      CV
                      </a>
-                  </li>
+                  </li> -->
                   <li class="nav-item navbar-active font-weight-bold">
                      <a class="nav-link" href="/publications/">
                      Publications
@@ -46,8 +46,8 @@
                      </a>
                   </li>
                   <li class="nav-item ">
-                     <a class="nav-link" href="/services-and-talks/">
-                     Services &amp; Talks
+                     <a class="nav-link" href="/service-and-talks/">
+                     Service &amp; Talks
                      </a>
                   </li>
                   <li class="nav-item ">
@@ -86,7 +86,7 @@
                         </a>
                   </div>
                <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-                  <div id="Code-Completion-TSE" class="col p-0">
+                  <div id="Code-Review-TSE" class="col p-0">
                         <h4 class="title mb-0">Code Review Automation: Strengths and Weaknesses of the State of the Art</h4>
                         <div class="author" style="font-size: small;">
                         <nobr><a href="https://www.inf.usi.ch/phd/tufanr/" target="_blank">Rosalia Tufano</a>,</nobr>
@@ -385,6 +385,66 @@
    </div>
 
    <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
+
+      <div class="col-sm-11 p-0">
+         <ol class="bibliography">
+            <li>
+               <div class="row m-0 mt-3 p-0">
+                  <div class="col-sm-1 p-0 abbr">
+                     <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 70px; font-size:small;" href="https://dl.acm.org/conference/icse" target="_blank">
+                     ICPC
+                     </a>
+                  </div>
+                  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+                     <div id="Worfklow-ICSE" class="col p-0">
+                        <h4 class="title mb-0">Towards Summarizing Code Snippets Using Pre-Trained Transformers</h4>
+                        <div class="author" style="font-size: small;">
+                           <nobr>
+                              <a href="https://www.antoniomastropaolo.com" target="_blank">
+                                 <nobr><em>Antonio Mastropaolo</em></nobr>
+                              </a>
+                              ,
+                           </nobr>
+                           <nobr><a href="https://www.inf.usi.ch/phd/cinism/" target="_blank">Matteo Ciniselli </a>,</nobr>
+   
+                           <nobr><a href="https://lucapascarella.com/" target="_blank">Luca Pascarella</a>,</nobr>
+
+                           <nobr><a href="https://www.inf.usi.ch/phd/tufanr/" target="_blank">Rosalia Tufano</a>,</nobr>
+
+                           <nobr><a href="https://emadpres.github.io/" target="_blank">Emad Aghajani</a></nobr>
+                           and
+                           
+                           
+                           <nobr><a href="https://www.inf.usi.ch/faculty/bavota/" target="_blank">Gabriele Bavota</a>.</nobr>
+                           
+                        </div>
+                        <div>
+                          <p class="periodical font-italic" style="font-size: small;">
+                              IEEE/ACM 32nd International Conference on Program Comprehension (ICPC'24)
+                           </p>
+                        </div>
+                        <div class="col p-0">
+                           <a class="badge grey waves-effect font-weight-light mr-1 paper-elements-button" data-toggle="collapse" href="#ICPC-snippet-abstract" role="button" aria-expanded="false" aria-controls="ICPC-snippet-abstrac"style="font-size:small;">Abstract</a>
+                           <a class="badge grey waves-effect font-weight-light mr-1 paper-elements-button" href="https://arxiv.org/pdf/2402.00519.pdf" style="font-size:small;" target="_blank">PDF</a>
+                           <a class="badge grey waves-effect font-weight-light mr-1 paper-elements-button" href="https://snippets-summarization.github.io" style="font-size:small;" target="_blank">Code</a>  
+                        </div>
+                        <div class="col mt-2 p-0">
+                           <div id="ICPC-snippet-abstract" class="collapse">
+                              <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                                 When comprehending code, a helping hand may come from the natural language comments documenting it that, unfortunately, are not always there. To support developers in such a scenario, several techniques have been presented to automatically generate natural language summaries for a given code. Most recent approaches exploit deep learning (DL) to automatically document classes or functions, while very little effort has been devoted to more fine-grained documentation (e.g., documenting code snippets or even a single statement).
+                                 Such a design choice is dictated by the availability of training data: For example, in the case of Java, it is easy to create datasets composed by pairs <method, javadoc> that can be fed to DL models to teach them how to summarize a method. Such a comment-to-code linking is instead non-trivial when it comes to inner comments (i.e., comments within a function) documenting a few statements.
+                                 In this work, we take all steps needed to train a DL model to automatically document code snippets.
+                                 First, we manually built a dataset featuring 6.6k comments that have been (i) classified based on their type (e.g., code summary, TODO), and (ii) linked to the code statements they document.
+                                 Second, we used such a dataset to train a multi-task DL model taking as input a comment and being able to (i) classify whether it represents a "code summary" or not, and (ii) link it to the code statements it documents. Our trained model identifies code summaries with 84% accuracy and is able to link them to the documented lines of code with recall and precision higher than 80%.
+                                 Third, we run this model on 10k open source projects, automatically identifying code summaries and linking them to the related documented code. This allowed to build a large-scale dataset of documented code snippets that has then been used to train a new DL model able to automatically document code snippets. A comparison with state-of-the-art baselines show the superiority of the proposed approach which, however, is still far from representing an accurate solution for snippet summarization.                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </li>
+            </ol>
+         </div>
 
       <div class="col-sm-11 p-0">
       <ol class="bibliography">
